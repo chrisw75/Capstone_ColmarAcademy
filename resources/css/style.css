@@ -6,3 +6,58 @@ html {
   max-width: 960px;
   margin: 0 auto;
 }
+
+body {
+  background-color: PapayaWhip;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: White;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 1rem 2rem;
+}
+
+nav img {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+nav span {
+  font-size: 1rem;
+}
+
+.sixty {
+  display: flex;
+  max-width: 60%;
+  height: auto;
+}
+
+.sixty img{
+  max-width: 100%
+}
+
+.fourty {
+  display: flex;
+  max-width: 40%
+}
