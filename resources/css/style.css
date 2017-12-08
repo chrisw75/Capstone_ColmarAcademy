@@ -140,7 +140,12 @@ nav span {
   border-bottom: none;
 }
 
-.sidebar:nth-child(3n+3) {
+#bkgrndFill-top {
+  padding-top: 1rem;
+  background-color: #d8d8d8;
+}
+
+#bkgrndFill-bottom {
   background-color: #d8d8d8;
 }
 
@@ -162,7 +167,7 @@ nav span {
   padding-bottom: .5rem;
 }
 
-.card-title {
+.container-title {
   display: block;
   width: 100%;
   text-align: center;
@@ -201,4 +206,8 @@ nav span {
 
 .info-card p {
   padding-bottom: .5rem;
+}
+
+.h3-thesis {
+  padding: 1.5rem 0 .5rem 0;
 }
