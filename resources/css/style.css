@@ -13,19 +13,10 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  padding-bottom: 1rem;
 }
 
 h2 {
   font-size: 2rem;
-  padding-top: 1.5rem;
-  padding-bottom: .5rem;
-}
-
-.centerAlign {
-  display: block;
-  width: 100%;
-  text-align: center;
 }
 
 h3 {
@@ -77,6 +68,15 @@ nav span {
 
 /*Content*/
 
+.h1-banner {
+    padding-bottom: 1rem;
+}
+
+.h2-about {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .container {
   display: flex;
   padding: 1.5rem;
@@ -88,6 +88,7 @@ nav span {
 
 .container-eaebec {
   background-color: #eaebec;
+  padding-bottom: 1rem;
 }
 
 .sixty {
@@ -158,5 +159,46 @@ nav span {
 }
 
 .infoCopy p {
+  padding-bottom: .5rem;
+}
+
+.card-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  width: 250px;
+  margin: 1rem;
+  background-color: White;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: Black;
+  transition:box-shadow .5s linear 0;
+}
+
+.card:hover {
+  box-shadow: 4px 8px 20px 4px rgba(0,0,0,0.5);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.info-card {
+  padding: 1rem 1rem;
+}
+
+.info-card p {
   padding-bottom: .5rem;
 }
