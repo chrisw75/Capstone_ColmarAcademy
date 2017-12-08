@@ -22,6 +22,12 @@ h2 {
   padding-bottom: .5rem;
 }
 
+.centerAlign {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 h3 {
   font-size: 1.5rem;
   padding-bottom: .5rem;
@@ -78,6 +84,10 @@ nav span {
 
 .container-d8d8d8 {
   background-color: #d8d8d8;
+}
+
+.container-eaebec {
+  background-color: #eaebec;
 }
 
 .sixty {
