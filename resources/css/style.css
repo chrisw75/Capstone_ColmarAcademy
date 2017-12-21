@@ -251,6 +251,20 @@ nav span {
   padding: 1.5rem 0 .5rem 0;
 }
 
+.thesis {
+border-bottom: 1px solid #d8d8d8;
+}
+
+.container, .thesis {
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 761px) {
+  #thesis-mobile {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .container {
     display: block;
@@ -319,8 +333,22 @@ nav span {
   .startLearning-Button:hover {
     box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
   }
-  #thesis {
+  #thesis-desktop {
     display: none;
   }
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+}
+
+footer div a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: Black;
 
 }
