@@ -1,4 +1,5 @@
 html {
+  font-family: "Libre Baskerville", serif;
   font-size: 16px;
 }
 
@@ -18,10 +19,14 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
 }
 
 h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
   font-size: 2rem;
 }
 
@@ -32,6 +37,10 @@ h3 {
 
 p {
     line-height: 1.25rem;
+}
+
+a {
+  font-family: "Libre Franklin", sans-serif;
 }
 
 /*Header*/
@@ -111,6 +120,8 @@ nav span {
 }
 
 .container-d8d8d8 {
+  display: flex;
+  align-items: center;
   background-color: #d8d8d8;
 }
 
@@ -129,6 +140,8 @@ nav span {
 }
 
 .forty {
+  display: flex;
+  flex-direction: column;
   margin-left: 1.5rem;
 }
 
