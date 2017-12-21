@@ -350,5 +350,13 @@ footer div a {
   padding-left: 1rem;
   text-decoration: none;
   color: Black;
+}
 
+@media only screen and (max-width: 760px) {
+  footer {
+    padding: 1.875rem 1.5rem 3rem 1.5rem;
+  }
+  footer div a {
+    display: none;
+  }
 }
