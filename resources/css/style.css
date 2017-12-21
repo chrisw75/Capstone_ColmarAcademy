@@ -11,6 +11,12 @@ body {
   background-color: #f3f5f5;
 }
 
+@media only screen and (max-width: 760px) {
+  body {
+  background-color: White;
+  }
+}
+
 h1 {
   font-size: 2.5rem;
 }
@@ -145,27 +151,8 @@ nav span {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 760px) {
-  .container {
-    display: block;
-    padding: 0;
-  }
-  .sixty {
-    max-width: 100%;
-  }
-  .bannerCopy {
-  padding: 2rem 1rem;
-  }
-  .forty {
-    margin-left: 0;
-  }
-  .h1-banner {
-      padding-bottom: 2rem;
-  }
-  .startButton {
-    width: 50%;
-  }
-  .feature {
+@media only screen and (min-width: 761px) {
+  .sidebar-photo-mobile {
     display: none;
   }
 }
@@ -211,6 +198,46 @@ nav span {
 
 .infoCopy p {
   padding-bottom: .5rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+    display: block;
+    padding: 0;
+  }
+  .sixty {
+    max-width: 100%;
+  }
+  .bannerCopy {
+  padding: 2rem 1rem;
+  }
+  .forty {
+    margin-left: 0;
+  }
+  .h1-banner {
+      padding-bottom: 2rem;
+  }
+  .startButton {
+    width: 50%;
+  }
+  .feature {
+    display: none;
+  }
+  .sidebar {
+    display: block;
+    margin-right: 0;
+    border-bottom: 0;
+  }
+  .sidebar-photo {
+    display: none;
+  }
+  .sidebar-photo-mobile {
+    padding-top: 1rem;
+  }
+  .sidebar-photo-mobile img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .container-title {
