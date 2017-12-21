@@ -200,58 +200,6 @@ nav span {
   padding-bottom: .5rem;
 }
 
-@media only screen and (max-width: 760px) {
-  .container {
-    display: block;
-    padding: 0;
-  }
-  .sixty {
-    max-width: 100%;
-  }
-  .bannerCopy {
-  padding: 2rem 1rem;
-  }
-  .forty {
-    margin-left: 0;
-  }
-  .h1-banner {
-      padding-bottom: 2rem;
-  }
-  .startButton {
-    width: 50%;
-  }
-  .feature {
-    display: none;
-  }
-  .sidebar:first-child {
-    padding-top: 1rem;
-  }
-  .sidebar {
-    display: block;
-    margin-right: 0;
-    border-bottom: 0;
-  }
-  .sidebar:last-child {
-    padding-bottom: 2rem;
-  }
-  .sidebar-photo {
-    display: none;
-  }
-  .sidebar-photo-mobile img {
-    max-width: 100%;
-    height: auto;
-  }
-  h3 {
-    padding-top: 2rem;
-  }
-  #bkgrndFill-bottom {
-    background-color: White;
-  }
-  /*.infoCopy {
-    margin-bottom: 1rem;
-  }*/
-}
-
 .container-title {
   display: block;
   width: 100%;
@@ -295,4 +243,74 @@ nav span {
 
 .h3-thesis {
   padding: 1.5rem 0 .5rem 0;
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+    display: block;
+    padding: 0;
+  }
+  .sixty {
+    max-width: 100%;
+  }
+  .bannerCopy {
+  padding: 2rem 1rem;
+  }
+  .forty {
+    margin-left: 0;
+  }
+  .h1-banner {
+      padding-bottom: 2rem;
+  }
+  .startButton {
+    width: 50%;
+  }
+  .feature {
+    display: none;
+  }
+  .sidebar:first-child {
+    padding-top: 1rem;
+  }
+  .sidebar {
+    display: block;
+    margin-right: 0;
+    border-bottom: 0;
+  }
+  .sidebar:last-child {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .sidebar-photo {
+    display: none;
+  }
+  .sidebar-photo-mobile img {
+    max-width: 100%;
+    height: auto;
+  }
+  h3 {
+    padding-top: 2rem;
+  }
+  #bkgrndFill-bottom {
+    background-color: White;
+  }
+  .card {
+    display: none;
+  }
+  .container-eaebec {
+    background-color: White;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 2rem;
+  }
+  .startLearning-Button {
+    display: block;
+    padding: 1rem;
+    margin: .25rem 1rem;
+    width: 100%;
+    background-color: #d8d8d8;
+    color: Black;
+    text-decoration: none;
+  }
+  .startLearning-Button:hover {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  }
 }
