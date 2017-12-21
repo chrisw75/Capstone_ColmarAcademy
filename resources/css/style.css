@@ -165,6 +165,9 @@ nav span {
   .startButton {
     width: 50%;
   }
+  .feature {
+    display: none;
+  }
 }
 
 .sidebar {
