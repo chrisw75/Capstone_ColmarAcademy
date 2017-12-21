@@ -18,29 +18,32 @@ body {
   }
 }
 
-h1 {
+.academy {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 800;
+}
+
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
   font-size: 2rem;
 }
 
 h2 {
   font-family: "Libre Franklin", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2rem;
 }
 
 h3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
   font-size: 1.5rem;
   padding-bottom: .5rem;
 }
 
 p {
     line-height: 1.25rem;
-}
-
-a {
-  font-family: "Libre Franklin", sans-serif;
 }
 
 /*Header*/
@@ -357,6 +360,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem 3rem 1.5rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
 }
 
 footer div a {
