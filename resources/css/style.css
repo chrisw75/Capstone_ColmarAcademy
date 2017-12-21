@@ -223,21 +223,33 @@ nav span {
   .feature {
     display: none;
   }
+  .sidebar:first-child {
+    padding-top: 1rem;
+  }
   .sidebar {
     display: block;
     margin-right: 0;
     border-bottom: 0;
   }
+  .sidebar:last-child {
+    padding-bottom: 2rem;
+  }
   .sidebar-photo {
     display: none;
-  }
-  .sidebar-photo-mobile {
-    padding-top: 1rem;
   }
   .sidebar-photo-mobile img {
     max-width: 100%;
     height: auto;
   }
+  h3 {
+    padding-top: 2rem;
+  }
+  #bkgrndFill-bottom {
+    background-color: White;
+  }
+  /*.infoCopy {
+    margin-bottom: 1rem;
+  }*/
 }
 
 .container-title {
