@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #f3f5f5;
+  background-color: #fbf8f2;
 }
 
 @media only screen and (max-width: 760px) {
@@ -21,20 +21,21 @@ body {
 .academy {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 800;
+  color: #603269;
 }
 
 h1 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #4a4a4a;
+  color: #603269;
 }
 
 h2 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #4a4a4a;
+  color: #4e3054;
 }
 
 h3 {
@@ -42,7 +43,7 @@ h3 {
   font-weight: 600;
   font-size: 1.5rem;
   padding-bottom: .5rem;
-  color: #4a4a4a;
+  color: #4e3054;
 }
 
 p {
@@ -132,14 +133,14 @@ nav span {
   padding: 1.5rem;
 }
 
-.container-d8d8d8 {
+.container-e0e5d4 {
   display: flex;
   align-items: center;
-  background-color: #d8d8d8;
+  background-color: #e0e5d4;
 }
 
-.container-eaebec {
-  background-color: #eaebec;
+.container-d2dcba {
+  background-color: #d2dcba;
   padding-bottom: 1rem;
 }
 
@@ -171,12 +172,17 @@ nav span {
   padding: .75rem;
   margin-top: 1rem;
   max-width: 100%;
-  background-color: #4a4a4a;
+  transition: background-color 0.25s ease;
+  background-color: #2d4e31;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   text-align: center;
   color: White;
   text-decoration: none;
+}
+.startButton:hover {
+  background-color: #603269;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
 }
 
 @media only screen and (min-width: 761px) {
@@ -189,7 +195,7 @@ nav span {
   display: flex;
   align-items: center;
   padding: 1rem;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid #e0e5d4;
   margin-right: -1.5rem;
 }
 
@@ -203,11 +209,11 @@ nav span {
 
 #bkgrndFill-top {
   padding-top: 1rem;
-  background-color: #d8d8d8;
+  background-color: #e0e5d4;
 }
 
 #bkgrndFill-bottom {
-  background-color: #d8d8d8;
+  background-color: #e0e5d4;
 }
 
 .sidebar-photo {
@@ -348,7 +354,7 @@ border-bottom: 1px solid #d8d8d8;
   .card {
     display: none;
   }
-  .container-eaebec {
+  .container-d2dcba {
     background-color: White;
     border-bottom: 1px solid #d8d8d8;
     padding-bottom: 2rem;
@@ -358,13 +364,16 @@ border-bottom: 1px solid #d8d8d8;
     padding: 1rem;
     margin: .25rem 1rem;
     width: 100%;
-    background-color: #d8d8d8;
+    transition: background-color 0.25s ease;
+    background-color: #2d4e31;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
-    color: Black;
+    color: White;
     text-decoration: none;
   }
   .startLearning-Button:hover {
+    background-color: #d2dcba;
+    color: Black;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
   }
   #thesis-desktop {
