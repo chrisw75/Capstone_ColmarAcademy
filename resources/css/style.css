@@ -29,8 +29,9 @@ p {
 }
 
 /*Header*/
-@media only screen and (min-width: 760px) {
-  .mobile {
+
+@media only screen and (max-width: 760px) {
+  .desktop {
     display: none;
   }
 }
@@ -55,6 +56,7 @@ nav div {
 nav ul {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   list-style: none;
 }
 
@@ -71,10 +73,19 @@ nav span {
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 760px) {
-  .desktop {
+@media only screen and (min-width: 760px) {
+  .mobile {
     display: none;
   }
+}
+
+.mobile img {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+
+.mobile ul li {
+  padding: 0 1.5rem;
 }
 
 /*Content*/
